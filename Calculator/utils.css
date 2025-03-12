@@ -1,0 +1,23 @@
+.text-center{
+    text-align: center;
+}
+
+.cal-bg{
+    background: lightblue;
+}
+
+.pos-set{
+    flex-direction: column;
+}
+
+.alig-cent{
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.cal-marg{
+    margin: auto;
+}

@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-image: url("images/mumbailocal.jpg");
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 5px 5px 3px 3px rgba(0,0,0,1);
+}
+
+.main ul{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.main ul li{
+    margin-top: 50px;
+}
+
+.main ul li a{
+    color: black;
+    padding: 10px;
+    list-style: none;
+    font-size: large;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    border-color: black;
+}
+
+.main ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.titl h1{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.titl h1:hover{
+    color: #f4ed60;
+}
+
+.titl h2{
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#navigate{
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+
+.container{
+    border-radius: 30px;
+    background: black;
+    height: 650px;
+    margin-top: 40px;
+}
+
+.container span{
+    position: absolute;
+    left: 25%;
+    margin-right: -50%;
+    margin-top: 25px;
+}
+
+.container span iframe{
+    border-radius: 20px;
+}
+
+.view{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.info{
+    background: white;
+    border-radius: 20px;
+}
+
+.info h1{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: white;
+}
+.copyright p p1{
+    color: #f4a460;
+}
